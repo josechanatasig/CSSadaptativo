@@ -1,0 +1,80 @@
+@font-face {
+	font-family:DancingScript;
+	src: url(../font/DancingScript-Regular.otf);
+	
+}
+html {
+	display:flex;
+	
+
+
+}
+
+body {
+	
+	font-family:DancingScript;
+	width:90%;
+	float: center;
+	margin: auto;
+	background-color: black;
+	
+animation-name: animacion_header;
+animation-duration: 2s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+	
+}
+
+.contenedor {
+	background-color:#d5c75f;
+	
+}
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 80%;
+	margin: auto;
+}
+
+img{
+	
+width: 80%;
+box-shadow:2px 2px  #82c3a6;	
+
+
+}
+
+	
+#imagen4, #imagen10 img {
+	-webkit-filter: blur(10px); /* Safari */
+  filter: blur(10px);
+	
+	
+}
+#imagen5, #imagen7, #imagen9, #imagen11, #imagen14, #imagen16 img {
+	
+  filter: grayscale(100%);
+	
+	
+}
+#imagen6, #imagen12 img {
+	
+  filter: sepia(90%);
+	
+	
+}
+@media (min-width: 900px) {	
+.contenedor {
+	background-color:#d5c75f;
+}
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+
+}
